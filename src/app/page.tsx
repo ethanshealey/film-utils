@@ -78,7 +78,7 @@ export default function Home() {
                 <Select defaultValue={"8"} onChange={(e) => setCurrentAperture(e)} value={currentAperture}>
                   {
                     ApertureUtilties.getPossibleAperatures().map((value: string) => (
-                      <Select.Option value={value} key={CommonUtilities.uuid()}><PiFunctionBold className='f-icon'/><p>{value}</p></Select.Option>
+                      <Select.Option value={value} key={CommonUtilities.uuid()}><span className='ap-value'><PiFunctionBold />{ value }</span></Select.Option>
                     ))
                   }
                 </Select>

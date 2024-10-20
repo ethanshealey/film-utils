@@ -66,15 +66,12 @@ fieldset {
 .ant-input-number-affix-wrapper {
   width: 100% !important;
 }
-.f-icon {
-  margin-top: 10px;
-}
-.ant-select-selection-item {
-  svg {
-    margin-top: 0px !important;
-    margin-right: 5px;
-  }
+.ap-value {
   display: flex;
   flex-direction: row;
   align-items: center;
+  svg {
+    margin-top: 1px;
+    margin-right: 5px;
+  }
 }
