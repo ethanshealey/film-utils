@@ -1,0 +1,15 @@
+@media only screen and (max-width: 800px) {
+    .iso-card {
+        width: 95%;
+    }
+    .iso-inputs {
+        flex-direction: column !important;
+        .iso-left, .iso-right {
+            width: 100% !important;
+        }
+        .iso-arrow-divider {
+            transform: rotate(90deg) !important;
+            margin-top: 5px !important;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #0f0f0f;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.iso-arrow-divider {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iso-card {
+  width: 70vw;
+}
+.iso-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iso-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.iso-btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .iso-calc-btn {
+    width: 88%;
+  }
+  .iso-reset-btn {
+    width: 4%;
+    margin-right: 5px;
+  }
+}
+
+.iso-left, .iso-right {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+fieldset {
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+}
+.ant-input-number-affix-wrapper {
+  width: 100% !important;
+}
+.f-icon {
+  margin-top: 10px;
+}
+.ant-select-selection-item {
+  svg {
+    margin-top: 0px !important;
+    margin-right: 5px;
+  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
