@@ -3,8 +3,6 @@ class ShutterSpeedUtilties {
     static convertSpeedToDecimal = (speed: string): number => {
         const speedList = speed.split("/")
 
-        console.log(speedList)
-
         if(speedList.length === 1)
             // 1 second+
             return parseInt(speed)

@@ -34,6 +34,8 @@ class CommonUtilities {
         bestNumerator = numerator / gcdValue;
         bestDenominator = denominator / gcdValue;
 
+        console.log(bestNumerator, bestDenominator)
+
         if(bestDenominator === 1) return `${bestNumerator}`
 
         return `${bestNumerator}/${bestDenominator}`;

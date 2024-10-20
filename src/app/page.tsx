@@ -23,7 +23,7 @@ export default function Home() {
 
   const calculate = () => {
 
-    const isoRatio: number = targetIso > currentIso ? targetIso/currentIso : currentIso/targetIso
+    const isoRatio: number = currentIso/targetIso
     const adjShutterSpeed: number = ShutterSpeedUtilties.convertSpeedToDecimal(currentShutterSpeed) * isoRatio
     const adjAperture: number = parseFloat(currentAperture) * Math.sqrt(isoRatio)
 
