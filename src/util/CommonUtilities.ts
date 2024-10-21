@@ -37,6 +37,7 @@ class CommonUtilities {
         console.log(bestNumerator, bestDenominator)
 
         if(bestDenominator === 1) return `${bestNumerator}`
+        else if(bestNumerator > bestDenominator) return `${(bestNumerator/bestDenominator).toFixed(2)}`
 
         return `${bestNumerator}/${bestDenominator}`;
     }
