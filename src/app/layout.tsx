@@ -6,6 +6,7 @@ import Providers from './Providers'
 export const metadata: Metadata = {
   title: 'Film Utilities',
   description: 'Various utilities for Film Photography',
+  viewport: 'initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi"'
 }
 
 export default function RootLayout({

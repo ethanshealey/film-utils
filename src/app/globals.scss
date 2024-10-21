@@ -75,3 +75,7 @@ fieldset {
     margin-right: 5px;
   }
 }
+input:disabled, .ant-input-disabled {
+  background-color: transparent !important;
+  color: #dcdcdc !important;
+}
